@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"
+        android:left="10dp">
+        <shape
+            android:shape="oval">
+            <solid android:color="#13BFE6" />
+        </shape>
+    </item>
+    <item
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:width="0dp"
+        android:height="0dp"
+        android:id="@+id/btn_progress">
+        <shape
+            android:shape="oval">
+            <solid android:color="#F00" />
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="oval">
+            <stroke android:width="2dp"
+                android:color="#4d4d4d"/>
+        </shape>
+    </item>
+</layer-list>
